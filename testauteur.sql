@@ -2,7 +2,7 @@
 -- version 4.4.13.1
 -- http://www.phpmyadmin.net
 --
--- Client :  spartanbdbgandja.mysql.db
+-- Client : 
 -- Généré le :  Sam 19 Décembre 2015 à 18:01
 -- Version du serveur :  5.5.46-0+deb7u1-log
 -- Version de PHP :  5.3.8
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Base de données :  `spartanbdbgandja`
+-- Base de données : 
 --
 
 -- --------------------------------------------------------
