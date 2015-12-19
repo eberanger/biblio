@@ -49,6 +49,7 @@
 				  <th>Titre</th>
 				  <th>Nom Prénom de l'auteur</th>
 				  <th>Lien Livre</th>
+				  <th>Lien Auteur</th>
 				</tr>
 
 			<?php
@@ -61,6 +62,7 @@
 				echo "<td>".$loLivreL->getTitre()."</td>";
 				echo "<td>".$loAuteur->getNom()." ".$loAuteur->getPrenom()."</td>";
 				echo "<td><a href='viewlivre.php?id=".$loLivreL->getId()."'> Détail du livre</a></td>";
+				echo "<td><a href='viewauteur.php?id=".$loAuteur->getId()."'> Détail de l'auteur</a></td>";
 				echo '</tr>';
 			}
 			echo "</table>";
